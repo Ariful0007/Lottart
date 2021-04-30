@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "287981660363",
+    "project_id": "lottart-5df43",
+    "storage_bucket": "lottart-5df43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287981660363:android:3c0b2a8d50796c2727d34e",
+        "android_client_info": {
+          "package_name": "com.example.lottart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287981660363-a15rj27bq9j63efppqm0nps8hqu3lfh3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpJI0udbKeCuKBW45wSrwg0uHY1OfolAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287981660363-a15rj27bq9j63efppqm0nps8hqu3lfh3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

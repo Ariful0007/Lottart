@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Coin2">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_50dp"
+        android:id="@+id/toolbar"
+        ></androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        <RelativeLayout
+
+
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/space_10dp"
+            >
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view"
+                android:layout_width="140dp"
+                android:layout_height="130dp"
+                app:cardBackgroundColor="#fff"
+                app:cardUseCompatPadding="true"
+                app:cardElevation="4dp"
+                android:background="@drawable/border"
+                app:cardCornerRadius="5dp"
+                android:layout_marginLeft="30dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/coin"
+                        android:id="@+id/imae1"
+                        android:layout_marginTop="@dimen/space_5dp"
+                        android:layout_centerHorizontal="true"
+                        ></de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imae1"
+                        android:layout_marginTop="@dimen/space_15dp"
+                        android:gravity="center"
+                        android:textColor="@color/colorAccent2"
+                        android:fontFamily="@font/autour_one"
+                        android:text="50 Coin\n100taka"
+
+                        android:textSize="13dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            //2
+            <androidx.cardview.widget.CardView
+                android:layout_toRightOf="@id/card_view"
+                android:id="@+id/card_view1"
+                android:layout_width="140dp"
+                android:layout_height="130dp"
+                app:cardBackgroundColor="#fff"
+                app:cardUseCompatPadding="true"
+                app:cardElevation="4dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/border"
+                app:cardCornerRadius="5dp"
+                android:layout_marginLeft="@dimen/space_20dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/coin"
+                        android:id="@+id/imae11"
+                        android:layout_marginTop="@dimen/space_5dp"
+                        android:layout_centerHorizontal="true"
+                        ></de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imae11"
+                        android:layout_marginTop="@dimen/space_15dp"
+                        android:gravity="center"
+                        android:textColor="@color/colorAccent2"
+                        android:fontFamily="@font/autour_one"
+                        android:text="100 Coin\n200taka"
+
+                        android:textSize="13dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            //3
+            <androidx.cardview.widget.CardView
+                android:layout_below="@id/card_view"
+                android:layout_toRightOf="@id/card_view"
+                android:id="@+id/card_view2"
+                android:layout_marginTop="@dimen/space_10dp"
+                android:layout_width="140dp"
+                android:layout_height="130dp"
+                app:cardBackgroundColor="#fff"
+                app:cardUseCompatPadding="true"
+                app:cardElevation="4dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/border"
+                app:cardCornerRadius="5dp"
+                android:layout_marginLeft="@dimen/space_20dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/coin"
+                        android:id="@+id/imae111"
+                        android:layout_marginTop="@dimen/space_5dp"
+                        android:layout_centerHorizontal="true"
+                        ></de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imae111"
+                        android:layout_marginTop="@dimen/space_15dp"
+                        android:gravity="center"
+                        android:textColor="@color/colorAccent2"
+                        android:fontFamily="@font/autour_one"
+                        android:text="200 Coin\n400taka"
+
+                        android:textSize="13dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/card_view3"
+                android:layout_below="@id/card_view1"
+                android:layout_width="140dp"
+                android:layout_height="130dp"
+                app:cardBackgroundColor="#fff"
+                app:cardUseCompatPadding="true"
+                app:cardElevation="4dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/border"
+                app:cardCornerRadius="5dp"
+                android:layout_marginLeft="30dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/coin"
+                        android:id="@+id/imae113"
+                        android:layout_marginTop="@dimen/space_5dp"
+                        android:layout_centerHorizontal="true"
+                        ></de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imae113"
+                        android:layout_marginTop="@dimen/space_15dp"
+                        android:gravity="center"
+                        android:textColor="@color/colorAccent2"
+                        android:fontFamily="@font/autour_one"
+                        android:text="150 Coin\n300taka"
+
+                        android:textSize="13dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            //5
+            <androidx.cardview.widget.CardView
+                android:layout_below="@id/card_view2"
+                android:id="@+id/card_view5"
+                android:layout_width="140dp"
+                android:layout_height="130dp"
+                app:cardBackgroundColor="#fff"
+                app:cardUseCompatPadding="true"
+                app:cardElevation="4dp"
+                android:layout_marginRight="@dimen/space_10dp"
+                android:background="@drawable/border"
+                app:cardCornerRadius="5dp"
+                android:layout_marginLeft="30dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/coin"
+                        android:id="@+id/imae115"
+                        android:layout_marginTop="@dimen/space_5dp"
+                        android:layout_centerHorizontal="true"
+                        ></de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imae115"
+                        android:layout_marginTop="@dimen/space_15dp"
+                        android:gravity="center"
+                        android:textColor="@color/colorAccent2"
+                        android:fontFamily="@font/autour_one"
+                        android:text="250 Coin\n500taka"
+
+                        android:textSize="13dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            //6
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="@dimen/space_10dp"
+               android:layout_below="@id/card_view3"
+                android:id="@+id/card_view6"
+                android:layout_width="140dp"
+                android:layout_height="130dp"
+                android:layout_toRightOf="@id/card_view5"
+                app:cardBackgroundColor="#fff"
+                app:cardUseCompatPadding="true"
+                app:cardElevation="4dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/border"
+                app:cardCornerRadius="5dp"
+                android:layout_marginLeft="@dimen/space_10dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:src="@drawable/coin"
+                        android:id="@+id/imae1111"
+                        android:layout_marginTop="@dimen/space_5dp"
+                        android:layout_centerHorizontal="true"
+                        ></de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imae1111"
+                        android:layout_marginTop="@dimen/space_15dp"
+                        android:gravity="center"
+                        android:textColor="@color/colorAccent2"
+                        android:fontFamily="@font/autour_one"
+                        android:text="500 Coin\n1000taka"
+
+                        android:textSize="13dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            //3
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cfd8dc"
+    android:gravity="center"
+    tools:context=".Loterry_list">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/space_10dp"
+        android:layout_margin="@dimen/space_10dp"
+        android:layout_height="450dp"
+        android:id="@+id/crad"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/wheel"
+            android:id="@+id/lotteru"
+            ></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/lotteru"
+                android:text="Lottery"
+                android:textColor="#004D40"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:id="@+id/lottery"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/abril_fatface"
+                android:background="@drawable/text_input_bg"
+                android:layout_margin="@dimen/space_5dp"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/lottery"
+                android:text="    Total Ticket in this lottery is 10."
+                android:textColor="#F44336"
+                android:textSize="18dp"
+                android:layout_marginLeft="@dimen/space_10dp"
+                android:textStyle="normal"
+                android:textAlignment="center"
+
+                android:id="@+id/price"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/abril_fatface"
+                android:background="@drawable/text_input_bg"
+                android:layout_margin="@dimen/space_5dp"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/price"
+                android:text=" Ticket Price : 10 Coin."
+                android:textColor="#004D40"
+
+                android:textSize="25dp"
+                android:layout_marginLeft="@dimen/space_10dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+
+                android:id="@+id/pric1"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/abril_fatface"
+                android:background="@drawable/text_input_bg"
+                android:layout_margin="@dimen/space_5dp"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/pric1"
+                android:text=" Winng Coin : 95 Coin."
+                android:textColor="#004D40"
+
+                android:textSize="25dp"
+                android:layout_marginLeft="@dimen/space_10dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+
+                android:id="@+id/pr1ic1"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/abril_fatface"
+                android:background="@drawable/text_input_bg"
+                android:layout_margin="@dimen/space_5dp"
+                ></TextView>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:layout_below="@id/crad"
+        android:id="@+id/signup_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="128dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/login_button"
+        android:backgroundTint="@color/colorAccent"
+        android:fontFamily="@font/josefinsans_semibold"
+        android:text="Take Ticket"
+        android:textColor="@color/off_white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+</RelativeLayout>
